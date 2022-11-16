@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "sweetalert2": "^11.6.8"
+  },
+  "scripts": {
+    "start": "json-server --watch api.json"
+  }
+}

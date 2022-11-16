@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Poppins:wght@200;500&family=Rubik&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Solo navbar  */
+.container-nav {
+  font-family: "Rubik", sans-serif;
+}
+.nav-superior {
+  height: 54px;
+  background-color: #2a41e8;
+}
+
+.nav-superior img {
+  width: 100%;
+  height: 54px;
+}
+.nav-inferior {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  height: 83px;  
+}
+.logo{
+  margin-left: 35.9px;
+}
+.nav-inferior {
+  display: flex;
+  border-bottom: 1px solid #efefef;
+}
+.nav-izquierdo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 50%;
+}
+.filtrar {
+  display: flex;
+  gap: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home {
+  margin-left: 33.1px;
+}
+
+.nav-derecho {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+.compare {
+  padding: 24px 30px 25px 30px;
+  height: 32px;
+  border-left: 1px solid #efefef;
+}
+.compare p span {
+  padding-top: 0px;
+  padding: 0 3px 0 3px;
+
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.corazon:hover {
+  -webkit-text-stroke: 1px blue;
+}
+.comp:hover {
+  color: blue;
+}
+
+.favoritos {
+  padding: 26px 40px;
+  border-left: 1px solid #efefef;
+  margin: 0;
+}
+.corazon {
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+  font-size: 26px;
+}
+
+.submit {
+  font-weight: 900;
+  padding: 33.5px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 16px;
+  line-height: 18px;
+  float: left;
+  background-color: #ff5e14;
+  color: #fff;
+}
+
+.submit:hover {
+  background-color: black;
+}

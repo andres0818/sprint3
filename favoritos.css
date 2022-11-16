@@ -1,0 +1,12 @@
+
+.titulo{
+    background-image: url(./pagina-favoritos-recursos/tituloFavoritos.png);
+    height: 100px;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    font-family: "Rubik", sans-serif;
+    background-size: cover;
+    margin-bottom: 1%;
+}

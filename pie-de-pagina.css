@@ -1,0 +1,19 @@
+.container-pie-de-pagina{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-bottom: 0;
+}
+.container-pie-de-pagina div img{
+    width: 100%;
+}
+.properties{
+    display: flex;
+    justify-content: center;
+    margin: 0 10% 0 10%;
+}
+
+footer img{
+    width: 100%;
+    margin-top: -3.8px;
+} 

@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Poppins:wght@200;500&family=Rubik&display=swap");
+
+.container-propiedad {
+  margin: 0 14.5% 0 14.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+}
+
+.propiedad-superior {
+  width: 289px;
+  height: 95px;
+  margin-bottom: 89px;
+}
+
+.propiedad-superior h5 {
+  color: #8c8c8c;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.propiedad-superior p {
+  color: #111111;
+  font-weight: 500;
+  font-size: 56px;
+}
+
+.propiedad-inferior {
+  display: flex;
+  height: 598px;
+  margin-bottom: 20%;
+}
+
+.propiedad-izquierdo {
+  width: 625px;
+  background-size: cover;
+  display: grid;
+  justify-items: start;
+  align-content: flex-end;
+}
+.propiedad-izquierdo button {
+  width: 119px;
+  height: 41px;
+  margin: 0 0 58px 65px;
+  border: none;
+  color: #2a42e8;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: "Rubik", sans-serif;
+  border-radius: 4px;
+}
+
+.propiedad-izquierdo button:hover {
+  background-color: #2a42e8;
+  color: white;
+  transition: 0.3s;
+}
+
+.propiedad-derecho {
+  background: #292929;
+  display: flex;
+  flex-direction: column;
+}
+
+.propiedad-uno {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #9b9b9b;
+  margin: 59px 0 38px 0;
+}
+
+.propiedad-dos {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 43px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.propiedad-tres {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #9b9b9b;
+  margin-bottom: 54px;
+}
+
+.propiedad-cuatro {
+  width: 252px;
+  height: 41px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-bottom: 60px;
+  background: #ff5e15;
+  border-radius: 4px;
+  margin: 0 25% 60px 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.valor-mes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 252px;
+  height: 41px;
+}
+.propiedad-cinco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:60px ;
+}
+.propiedad-cinco a {
+  display: flex;
+  color: #8c8c8c;
+  border: 2px solid #8c8c8c;
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.propiedad-cinco a:hover{
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    transform: scale(120%);
+    transition: 1s;
+    
+
+}
+
+
+.area-habitaciones img{
+    margin: 0 50px 60px 52px;
+    height: 41px;
+}

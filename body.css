@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Poppins:wght@200;500&family=Rubik&display=swap");
+
+/*cuerpo de la pagina*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-body{    
+    width: 100%;
+    height: 663px;
+    background-image: url(./body-Recursos/body\ fondo.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+    gap: 54px;
+    
+    
+}
+
+.text{
+    width: 100%;
+    color: white;
+    text-align: left;    
+}
+.text h1{
+    font-weight: 500;
+    font-size: 42px;
+    margin-bottom: 12px;
+    margin-left: 8%;    
+}
+.text h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 8%;    
+}
+.buscador-background{
+    background-color: white;
+    width: 1280px;
+    height: 119px;
+    border-radius:4px ;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Editar diseño desde aca */
+.ubicacion{
+    width: 274px;
+    height: 60px;
+    background-color: rgba(175, 174, 174, 0.544);
+    border: none;
+    border-radius: 4px;
+    color: gray;
+       
+}
+
+.tipo{
+    width:188px;
+    height: 60px;
+    background-color:  rgba(175, 174, 174, 0.544);
+    border-radius: 4px;
+    color: gray;
+    
+}
+
+select{
+    border: none;
+    background-color:rgba(175, 174, 174, 0);
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+}
+
+.buscador{
+    width: 456px;
+    height: 60px;
+    background-color:  rgba(175, 174, 174, 0.544);
+    border-radius: 4px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+input{
+width: 376px;
+height: 21px;
+border-radius: 7px;
+background-color: #283bca00;
+border: none;
+font-size: 16px;
+}
+
+.boton{
+    width: 214px;
+    height: 60px;
+}
+.boton button{
+    width: 100%;
+    height: 100%;
+    background-color: #2A41E8;
+    border: none;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffff;
+    text-transform: uppercase;
+
+}
+.boton button:hover{
+    background-color: #283bca;
+    transition: 0.5s;
+}

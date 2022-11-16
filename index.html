@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CasaRoyal</title>
+    <link rel="stylesheet" href="sweetalert2.min.css" />
+    <link rel="stylesheet" href="./navbar.css" />
+    <link rel="stylesheet" href="./body.css" />
+    <link rel="stylesheet" href="./tarjeta-hot-deal.css">
+    <link rel="stylesheet" href="./tarjetas.css" />
+    <link rel="stylesheet" href="pie-de-pagina.css">
+  </head>
+  <body>
+
+    <!-- navbar.css -->
+    <a name="encabezado"></a>
+    <div class="container-nav">
+      <div class="nav-superior">
+        <img src="./nav-Recursos/Nav top.png" alt="" />
+      </div>
+      <div class="nav-inferior">
+        <div class="nav-izquierdo">
+          <div class="logo">
+            <img src="./nav-Recursos/Logo.png" alt="" />
+          </div>
+          <div class="home">
+            <a href="./index.html">Inicio</a>
+          </div>
+          <div class="filtrar">
+            <div class="relleno-navBar">
+              Propiedades
+            </div>
+            <div class="relleno-navBar">
+              Agentes
+            </div>
+          </div>
+          <div class="contactenos">
+            <a href="">Contactenos</a>
+          </div>
+        </div>
+        <div class="nav-derecho">
+          <div class="compare">
+            <p class="comp">COMPARE <span class="comp">√</span></p>
+          </div>
+          <div class="favoritos">
+            <a href="./paginas/favoritos.html"><span class="corazon">♥</span></a
+            >
+          </div>
+          <div class="submit">
+            <p>enviar listado</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Cuerpo de la pagina body.css -->
+
+    <div class="container-body">
+      <div class="text">
+        <h1>Déjanos guiarte a casa</h1>
+        <h3>encuentra la casa de tus sueños</h3>
+      </div>
+      <div class="buscador-background">
+        <div class="ubicacion">
+          <label for="form">Localidad</label>
+        <form id="form-ubicacion">
+          <select name="Localidad" id="ubicacion">
+            <option value="0" disabled>selecione la ubicacion</option>
+            <option value="Newport Beach, CA">Newport Beach</option>
+            <option value="Mission Viejo, CA">Mission Viejo</option>
+            <option value="Beverly Hills, CA">Beverly Hills</option>
+            <option value="Los Angeles, CA">Los Angeles</option>
+            <option value=" Pasadena, CA"> Pasadena</option>
+          </select>
+                   
+        </form>
+        </div>
+        <div class="tipo">
+          <label for="form">Tipo</label>
+        <form id="form-tipo">
+          <select name="tipo" id="tipo">
+            <option value="0" disabled>Tipo de propiedad</option>
+            <option value="CASA">Casa</option>
+            <option value="TORRE">Torre</option>
+            <option value="VERANO">Verano</option>
+
+          </select>
+                  
+        </form>
+        </div>
+        
+        <div class="buscador">
+          <input type="text" id="buscador" name="buscador" placeholder=" Buscar por propiedades, clases o tipos..." >
+          </select>
+                  
+        </form>
+        </div>
+        <div class="boton">
+          <button>find properties</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tarjeta de las viviendas   tarjetas.css -->
+    <div class="container-tarjetas">
+      <div class="text-tarjetas">
+        <h3>CASAROYAL AGENCIA INMOBILIARIA</h3>
+        <h1>Propiedades <span>Destacadas</span></h1>
+      </div>
+      <main id="main"></main>
+      <div>
+        <a class="encabezado" href="#encabezado">TODAS LAS PROPIEDA</a>
+      </div>
+    </div>
+    
+    <!-- descripcion de una sola propiedad tarjeta-hot-deal.css -->
+    
+    <div class="container-propiedad">
+      <div class="propiedad-superior" >
+        <h5>CASA ROYAL REAL ESTATE AGENCY</h5>
+        <p><strong>Hot</strong> Deal</p>
+      </div>
+      <div class="propiedad-inferior" >
+        <div class="propiedad-izquierdo" style="background-image: url(./hot-Deal-Recursos/Property.png);">
+          <button>Photos</button>
+        </div>
+        <div class="propiedad-derecho">
+          <div class="propiedad-uno">
+            <h5>Residential Tower For Rent</h5>
+          </div>
+          <div class="propiedad-dos">
+            <h2>15 Apartments of Type B</h2>
+          </div>
+          <div class="propiedad-tres">
+            <h5>Los Angeles, CA</h5>
+          </div>
+          <div class="propiedad-cuatro">
+            <h5 class="valor-mes">Form $1,700.00 Per Month</h5>
+          </div>
+          <div class="propiedad-cinco">
+            <a target="_blank" href="https://www.youtube.com/watch?v=zvL0UmvPSEA&ab_channel=NourmandRE">Play</a>
+          </div>
+          <div class="area-habitaciones">
+            <img src="./hot-Deal-Recursos/area-habitaciones.png"  alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- pie de pagina pie-de-pagina.css -->
+  <div class="container-pie-de-pagina">    
+    <div class="properties">
+      <img  src="./pie_de_pagina/properties-by-area.png" alt="">
+    </div>
+    <div>
+      <img src="./pie_de_pagina/our-Agents.png" alt="">
+    </div>
+    <div>
+      <img src="./pie_de_pagina/Section - Sell Property.png" alt="">
+    </div>
+    <div>
+      <img src="./pie_de_pagina/real estate agencies.png" alt="">
+    </div>
+    <div>
+      <img src="./pie_de_pagina/articles & tips.png" alt="">
+    </div>
+    <div>
+      <img src="./pie_de_pagina/our values.png" alt="">
+    </div>
+    <div>
+      <img src="./pie_de_pagina/what our clients say.png" alt="">
+    </div>
+  </div>
+    <footer>
+      <img src="pie_de_pagina/Footer.png" alt="">
+    </footer>
+    
+    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/tarjetas.js"></script>
+    <script src="./idLocalStorage.js"></script>
+  </body>
+  </html>
+  

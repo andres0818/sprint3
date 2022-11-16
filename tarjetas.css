@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Poppins:wght@200;500&family=Rubik&display=swap");
+/* tarjetas de las propiedades */
+body{
+  background-color: #F2F2F2;
+}
+.container-tarjetas {
+  margin: 8% 8% 30% 8%;
+  height: 1150px;
+  display: flex;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+  flex-direction: column;
+}
+
+.text-tarjetas {
+  width: 530px;
+  height: 96px;  
+  margin-top: -48px;
+  text-align: center;
+  margin-bottom: 88px;
+}
+
+.text-tarjetas h3 {
+  margin-bottom: 13px;
+  color: #8c8c8c;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.text-tarjetas h1 {
+  color: #111111;
+  font-weight: 500;
+  font-size: 46px;
+}
+
+.text-tarjetas h1 span {
+  font-weight: 900;
+}
+
+#main{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+}
+.tarjetas {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  margin: 30px;
+}
+
+.body-tarjeta {
+  background-color: blanchedalmond;
+  border-radius: 4px;
+  width: 319px;
+  height: 500px;
+}
+
+.tarjeta-superior {
+  width: 100%;
+  height: 50%;
+  border-radius: 4px;
+  position: relative;
+}
+
+.tarjeta-superior img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px 4px 0px 0;
+  position: absolute;
+  z-index: 0;
+}
+
+.favoritos-tarjeta{
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;  
+}
+.favoritos-tarjeta:hover{
+  background-color: #2a43e89b;
+  transition: 0.5s;
+}
+
+.botones {
+  position: absolute;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  
+}
+
+.sup-izquierda {
+  display: flex;
+  margin: 24px 0 0 25px;
+  gap: 4px;
+}
+
+.tipo-casa {
+  width: 62px;
+  height: 30px;
+  background-color: #2a42e8;
+  color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  border: none;
+  border-radius: 4px;
+  z-index: 2;
+}
+.estado-casa {
+  width: 85px;
+  height: 30px;
+  margin-left: 4px;
+  background-color: #ff5e15;
+  color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  border: none;
+  border-radius: 4px;
+  z-index: 2;
+}
+.sup-derecha {
+  display: flex;
+  justify-content: flex-end;
+}
+.rayo {
+  z-index: 2;
+  width: 34px;
+  height: 30px;
+  background: #2a42e8;
+  margin: 24px 25px 0 0;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 900;
+  z-index: 2;
+}
+
+.inferior-izquierda {
+  display: flex;
+  align-items: flex-end;
+  margin: 0 0 27px 26px;
+}
+.precio {
+  border: none;
+  border-radius: 4px;
+  width: 128px;
+  height: 30px;
+  background-color: #ffffff;
+  color: #2a42e8;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  z-index: 2;
+}
+.inferior-derecha {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.inferior-derecha button {
+  width: 34px;
+  height: 30px;
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  margin-bottom: 27px;
+  border-radius: 4px;
+  z-index: 2;
+}
+
+.flechas {
+  margin: 0 25px 0 4px;
+}
+.cora span {
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  font-size: 26px;
+}
+
+.inferior-derecha button:hover {
+  background-color: #2a42e8;
+  transition: 0.3s;
+}
+
+.terjeta-inferior {
+  background: #ffffff;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tarjeta-localidad{  
+  display: flex;
+  flex-direction: row;
+  margin: 22px 0 20px 26px;
+}
+.tarjeta-localidad img{
+  width: 17px;
+  height: 14px;
+}
+
+.tarjeta-localidad h6{
+  font-weight: 400;
+  font-size: 14px;
+  color: #848484;
+}
+
+.descripcion{
+  margin: 0 58px 23px 26px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #1D1D1D;
+}
+
+.descripcion p:hover{
+  color: #2a42e8;
+  transition: 0.3s;
+}
+
+.propietario{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 22px;
+  margin: 0 0 39px 26px ;
+  border-bottom: 1px solid #F4F4F4; ;
+}
+
+.dueño{
+  display: flex;
+  margin-right: 128px;
+}
+
+.dueño img{
+  width: 16px;
+  height: 16px;
+}
+.dueño p{
+  color: #2a42e8;
+  font-weight: 400;
+  font-size: 14px;  
+  }
+  
+.propietario p{
+  font-weight: 400;
+  font-size: 14px;
+  color: #848484;
+}
+
+.habitaciones-area{
+  display: flex;
+}
+
+.area{
+  margin: 0 30px 21px 26px;
+  width: 104px;
+  height: 19px;
+}
+
+.habitaciones{
+  margin: 0 24px 21px ;
+  width: 106px;
+  height: 19px;
+}
+
+
+
+.encabezado{
+  width: 268px;
+  height: 58px;
+  display: flex;
+  margin: 68px 0 181px 0; 
+  background: #000000;
+  align-items: center;
+  justify-content: center;
+  color: #F4F4F4;
+  border-radius: 29px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+
+.encabezado:hover{
+  background-color: #2a42e8;
+  transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
